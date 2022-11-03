@@ -1,6 +1,6 @@
 # C - Sorting algorithms & Big O
 
-In this project, I implemented twelve different sorting algorithms.
+In this project, I implement different sorting algorithms.
 
 ## Helper Files :raised_hands:
 
@@ -34,31 +34,6 @@ Function Prototypes:
 | `1-insertion_sort_list.c`  | `void insertion_sort_list(listint_t **list);`     |
 | `2-selection-sort.c`       | `void selection_sort(int *array, size_t size);`   |
 | `3-quick_sort.c`           | `void quick_sort(int *array, size_t size);`       |
-
-
-Data Structures:
-```
-typedef enum kind_e
-{
-	SPADE = 0,
-	HEART,
-	CLUB,
-	DIAMOND
-} kind_t;
-
-typedef struct card_s
-{
-	const char *value;
-	const kind_t kind;
-} card_t;
-
-typedef struct deck_node_s
-{
-	const card_t *card;
-	struct deck_node_s *prev;
-	struct deck_node_s *next;
-} deck_node_t;
-```
 
 ## Tasks :page_with_curl:
 
