@@ -2,10 +2,6 @@
 
 In this project, I implemented twelve different sorting algorithms.
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-
 ## Helper Files :raised_hands:
 
 * [print_array.c](./print_array.c): C function that prints an array of
@@ -39,8 +35,6 @@ Function Prototypes:
 | `2-selection-sort.c`       | `void selection_sort(int *array, size_t size);`   |
 | `3-quick_sort.c`           | `void quick_sort(int *array, size_t size);`       |
 
-* [deck.h](./deck.h): Header file containing definitions and prototypes for all types
-and functions written for the task `1000-sort_deck.c`.
 
 Data Structures:
 ```
@@ -65,12 +59,6 @@ typedef struct deck_node_s
 	struct deck_node_s *next;
 } deck_node_t;
 ```
-
-Function Prototype:
-
-| File               | Prototype                             |
-| ------------------ | ------------------------------------- |
-| `1000-deck_node.c` | `void sort_deck(deck_node_t **deck);` |
 
 ## Tasks :page_with_curl:
 
